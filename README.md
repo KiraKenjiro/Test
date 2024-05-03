@@ -16,7 +16,7 @@ Throughout the year-long project, Sora will begin streaming on her own Discord s
 
 ## Component Diagram
 
-![SORA Component Diagram](https://lh7-us.googleusercontent.com/_2D-9QpFSEjziTdr2vXfx-GfekIaEg2YkiJimaxY2AUqMPYWDzSPuM139GbkSLmqE-PjdqAzWZduaiu18TVcRK3Gddu6PLszuJX20f34Hxpx21RdnxswN_fXSZM0b0KaVXotj9yOi4wE7_TEWNg2jwU)
+![SORA Component Diagram](map.jpg)
 
 The SORA program consists of several key components:
 
@@ -61,20 +61,26 @@ The ultimate objective of SORA is to attain full autonomy, allowing it to handle
 
 ## Sequential Request Chart
 
-![Sequential Request Chart](image-link-here)
+![Sequential Request Chart](requests.jpg)
 
 This chart represents the backend of the sequential request process. It outlines the step-by-step plan that SORA follows to fetch the right data.
 
 ## Control Panel
 
-![Control Panel](image-link-here)
+![Control Panel](controlpanel.jpg)
 
 SORA has a control panel that allows for moderating and managing streams. In the future, it will enable collaboration with others for gaming sessions and stream management.
 
-## Conclusion
+### System Structure
 
-SORA's capabilities and components make it a valuable tool for creating content and managing social media activities.
+![System Structure](structure.jpg)
 
-For more details or specific information about each component, please refer to the relevant sections above.
+🟥 = The four-digit sequence in her ID represents her version (originally intended to be 2, but an error occurred during transmission). The capitalized word indicates her stage of release (DEV, ALPHA, BETA, LIVE).
 
-For images, replace 'image-link-here' with the actual image URLs.
+🟩 & 🟦 = Design UID (not G'UID but D'UID) This denotes the alpha version she is currently in and the design model of her AI, reflecting the number of modifications she has undergone. Combining these yields 0001-ALPHA-572:372.
+
+🟨 = Her group ID (G'UID), indicating the group she belongs to, such as first gen, second gen, version 1, or version 2. It is divided into SEC | GRP (SEC = Second & GRP = Group).
+
+⬛ = The administrator overseeing the group. Upon her release, she will be made publicly available for streamers collaborating with her to manage her software at an advanced level. These collaborators serve as administrators for the group Sora is part of.
+
+These group distinctions might prove useful in the future; Kira might have some intriguing secrets up his sleeve! 😉
