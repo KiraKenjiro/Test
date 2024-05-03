@@ -16,7 +16,7 @@ Throughout the year-long project, Sora will begin streaming on her own Discord s
 
 ## Component Diagram
 
-![SORA Component Diagram](map.jpg)
+![SORA Component Diagram](./map.png)
 
 The SORA program consists of several key components:
 
@@ -43,7 +43,7 @@ This module manages external third-party communications, primarily serving three
 
 #### Text-to-Speech
 
-This module receives the output from the Decision Processing module, which is then transformed into audible speech modelled after the voice of [insert person's name]. Once the text is input, the module generates the corresponding audio and seamlessly broadcasts it through a digital audio channel.
+This module receives the output from the Decision Processing module, which is then transformed into audible speech modelled after the voice of Niyah (Internal team member of Kesshō). Once the text is input, the module generates the corresponding audio and seamlessly broadcasts it through a digital audio channel.
 
 #### Speech-to-Text
 
@@ -61,19 +61,19 @@ The ultimate objective of SORA is to attain full autonomy, allowing it to handle
 
 ## Sequential Request Chart
 
-![Sequential Request Chart](requests.jpg)
+*Unfinished Chart*
 
 This chart represents the backend of the sequential request process. It outlines the step-by-step plan that SORA follows to fetch the right data.
 
 ## Control Panel
 
-![Control Panel](controlpanel.jpg)
+![Control Panel](./controlpanel.png)
 
 SORA has a control panel that allows for moderating and managing streams. In the future, it will enable collaboration with others for gaming sessions and stream management.
 
 ### System Structure
 
-![System Structure](structure.jpg)
+![System Structure](./sorasolver.png)
 
 🟥 = The four-digit sequence in her ID represents her version (originally intended to be 2, but an error occurred during transmission). The capitalized word indicates her stage of release (DEV, ALPHA, BETA, LIVE).
 
@@ -83,4 +83,21 @@ SORA has a control panel that allows for moderating and managing streams. In the
 
 ⬛ = The administrator overseeing the group. Upon her release, she will be made publicly available for streamers collaborating with her to manage her software at an advanced level. These collaborators serve as administrators for the group Sora is part of.
 
-These group distinctions might prove useful in the future; Kira might have some intriguing secrets up his sleeve! 😉
+These group distinctions might prove useful in the future; Kira might have some intriguing secrets up his sleeve! :]
+
+### Extra Images
+
+These were Sora's initial memory tests, marking the beginning of her cognitive journey.
+![Memory](./SoraEarlyMemoryPrototype.png)
+
+She operates as a VTuber with a custom-made interface tailored to input velocities into the virtual character.
+![VTubeStudio](./VtubeStudioAPI.png)
+
+We have an in-house artist dedicated solely to crafting Sora's visuals, handling everything from drawing and designing to modeling all assets, including character rigging.
+![Art1](./art.jpg)
+![Art2](./art-ProtoScetch.jpg)
+
+I worked on creating an AI version of Sora in Minecraft, granting her the ability to navigate and interact freely within the game world. Additionally, I integrated a PvP bot into her system, leveraging advanced mathematical algorithms to enhance her combat capabilities.
+![Join](./soraMC.png)
+![Skin](./soraMCSkin.png)
+![Video](./video.mp4)
