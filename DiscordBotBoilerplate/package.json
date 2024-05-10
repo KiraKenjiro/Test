@@ -1,0 +1,19 @@
+{
+  "name": "discordbotboilerplate",
+  "version": "4.18.36",
+  "description": "This is a discord bot boilerplate to use for any sort of application you have planned.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Kira Kenjiro",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.2",
+    "moment": "^2.30.1",
+    "sharp": "^0.33.3",
+    "sqlite3": "^5.1.7",
+    "svg-captcha": "^1.4.0"
+  }
+}
